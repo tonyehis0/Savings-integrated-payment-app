@@ -118,7 +118,7 @@
     )
 )
 
-;; git 
+;; Payment Functions
 (define-public (send-payment (recipient principal) (amount uint))
     (let ((sender tx-sender)
           (sender-profile (unwrap! (map-get? user-profiles { user: sender }) err-user-not-found))
