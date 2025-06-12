@@ -319,8 +319,7 @@
             (merge user-profile 
                 { balance: (- (get balance user-profile) contribution) }
             )
-        )
-        
+        )  
         ;; Update circle
         (map-set savings-circles
             { circle-id: circle-id }
