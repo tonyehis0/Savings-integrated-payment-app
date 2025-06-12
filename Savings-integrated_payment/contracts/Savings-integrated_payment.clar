@@ -394,7 +394,6 @@
 (define-read-only (get-current-block-height)
     (var-get current-block)
 )
-
 ;; Admin functions
 (define-public (set-platform-fee-rate (new-rate uint))
     (begin
