@@ -234,7 +234,6 @@
         (ok percentage)
     )
 )
-
 ;; Savings Circle Functions
 (define-public (create-savings-circle 
     (name (string-ascii 50))
